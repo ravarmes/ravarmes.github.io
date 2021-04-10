@@ -4,6 +4,14 @@ You can use the [editor on GitHub](https://github.com/ravarmes/ravarmes.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+[YouTube](https://www.youtube.com/channel/UCdX8ccVP4H_N8rCvDVjhRHg)
+
+[GitHub](https://github.com/ravarmes)
+
+[LinkedIn](https://www.linkedin.com/in/rafael-vargas-mesquita/)
+
+[Lattes](http://lattes.cnpq.br/6616283627544820)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

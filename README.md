@@ -11,7 +11,7 @@ You can use the [editor on GitHub](https://github.com/ravarmes/ravarmes.github.i
 [Lattes](http://lattes.cnpq.br/6616283627544820)
 
 ### Principais playlists no YouTube
-
+[Persistência de Dados - Java](https://www.youtube.com/watch?v=D-By3tUHcys&list=PL-mvLy2ws8IK43iGS3DU2dS1GDwix5Qy7)
 ```markdown
 
 - [Persistência de Dados - Java](https://www.youtube.com/watch?v=D-By3tUHcys&list=PL-mvLy2ws8IK43iGS3DU2dS1GDwix5Qy7)

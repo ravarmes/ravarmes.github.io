@@ -2,8 +2,6 @@
 
 You can use the [editor on GitHub](https://github.com/ravarmes/ravarmes.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 [YouTube](https://www.youtube.com/channel/UCdX8ccVP4H_N8rCvDVjhRHg)
 
 [GitHub](https://github.com/ravarmes)
@@ -12,34 +10,21 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [Lattes](http://lattes.cnpq.br/6616283627544820)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Principais playlists no YouTube
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+- [Persistência de Dados - Java](https://www.youtube.com/watch?v=D-By3tUHcys&list=PL-mvLy2ws8IK43iGS3DU2dS1GDwix5Qy7)
+- Programação Distribuída - Java Sockets(https://www.youtube.com/watch?v=gUUdOmNDgPg&list=PL-mvLy2ws8IIGRMem0tQrKc-h4jHPhadk)
+- Programação Concorrente - Java Threads(https://www.youtube.com/watch?v=bCmrhSma5bw&list=PL-mvLy2ws8IJQlIm-OIU9WO-hJPlARq_W)
+- Programação Orientada a Objetos(https://www.youtube.com/watch?v=NroPxz8dBSs&list=PL-mvLy2ws8IK6Tvoq73GeQCagLF7iyN6_)
+- Spring Boot - Backend - Sistema de Videolocadora(https://www.youtube.com/watch?v=XoejSRAPgs4&list=PL-mvLy2ws8IKOvqm2RClenHXArjQvo_pH)
+- JavaFX - CRUD - MVC - Sistema de Vendas(https://www.youtube.com/watch?v=_Ke7CiTdmiI&list=PL-mvLy2ws8ILNrs8jtEAwaZMxDZvlMj48)
+- JavaFX - Introdução(https://www.youtube.com/watch?v=M-kMpOWTAZA&list=PL-mvLy2ws8IJ67KgbRQbE4QoIgmn9CeyK)
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Contato
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ravarmes/ravarmes.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ravarmes@hotmail.com

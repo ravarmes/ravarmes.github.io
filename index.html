@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravarmes - Projetos de Software e Desenvolvimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="assets/logo2.png" alt="RVM Logo" class="logo">
+                <h1>Rafael Vargas</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Rafael Vargas Mesquita</h1>
+                <p class="hero-subtitle">Projetos de Software e Desenvolvimento</p>
+                <p class="hero-education">Possui Graduação em Ciência da Computação pela UFLA (2004), Mestrado em Estatística pela UFLA (2007), Doutorado pela UENF (2012) e Pós-Doutorado em Informática pela UFES (2024). Professor Titular do IFES desde 2006, com experiência em Sistemas de Recomendação, Ciência de Dados e Processamento de Linguagem Natural.</p>
+                <div class="hero-links">
+                    <a href="https://github.com/ravarmes" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCdX8ccVP4H_N8rCvDVjhRHg" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://www.linkedin.com/in/rafael-vargas-mesquita/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <p class="section-description">
+                Explore meus projetos organizados por categoria. Cada projeto representa uma jornada de aprendizado e inovação.
+            </p>
+
+            <!-- Category Filters -->
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="algoritmos">Algoritmos</button>
+                <button class="filter-btn" data-category="ia-ml">IA/ML</button>
+                <button class="filter-btn" data-category="jogos">Jogos</button>
+                <button class="filter-btn" data-category="web">Web</button>
+                <button class="filter-btn" data-category="mobile">Mobile</button>
+                <button class="filter-btn" data-category="ensino">Ensino</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Algoritmos Projects -->
+                <div class="project-card" data-category="algoritmos">
+                    <div class="project-header">
+                        <h3 class="project-title">Estruturas de Dados</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Implementações de estruturas de dados clássicas com exemplos práticos e análise de complexidade.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 0</span>
+                            <span><i class="fas fa-code-branch"></i> 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IA/ML Projects -->
+                <div class="project-card" data-category="ia-ml">
+                    <div class="project-header">
+                        <h3 class="project-title">Machine Learning Básico</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Projetos introdutórios de Machine Learning com exemplos práticos e datasets educacionais.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 0</span>
+                            <span><i class="fas fa-code-branch"></i> 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jogos Projects -->
+                <div class="project-card" data-category="jogos">
+                    <div class="project-header">
+                        <h3 class="project-title">Jogos Educativos</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Coleção de jogos educativos desenvolvidos para ensinar conceitos de programação de forma interativa.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 0</span>
+                            <span><i class="fas fa-code-branch"></i> 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ensino Projects -->
+                <div class="project-card" data-category="ensino">
+                    <div class="project-header">
+                        <h3 class="project-title">Material Didático</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Markdown</span>
+                            <span class="tech-tag">Jupyter</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Repositório com material didático, exercícios e projetos para disciplinas de programação.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 0</span>
+                            <span><i class="fas fa-code-branch"></i> 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional placeholder cards -->
+                <div class="project-card" data-category="ensino">
+                    <div class="project-header">
+                        <h3 class="project-title">Dashboard Analytics</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Dashboard para análise de dados com gráficos interativos e relatórios personalizáveis.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 0</span>
+                            <span><i class="fas fa-code-branch"></i> 0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Section -->
+    <section id="playlists" class="section">
+        <div class="container">
+            <h2 class="section-title">Playlists no YouTube</h2>
+            <div class="collapsible-list">
+                <div class="collapsible-item">
+                    <button class="collapsible-header">📚 Cursos de Programação <span class="toggle-icon">+</span></button>
+                    <div class="collapsible-content">
+                        <ul>
+                            <li><a href="#" target="_blank">Curso JavaScript</a></li>
+                            <li><a href="#" target="_blank">Curso JavaScript DOM</a></li>
+                            <li><a href="#" target="_blank">Curso de Sequelize Fundamentos</a></li>
+                            <li><a href="#" target="_blank">Curso de Python Fundamentos</a></li>
+                            <li><a href="#" target="_blank">Persistência de Dados - Java JDBC</a></li>
+                            <li><a href="#" target="_blank">Programação Distribuída - Java Sockets</a></li>
+                            <li><a href="#" target="_blank">Programação Concorrente - Java Threads</a></li>
+                            <li><a href="#" target="_blank">Spring Boot</a></li>
+                            <li><a href="#" target="_blank">JavaFX Introdução</a></li>
+                            <li><a href="#" target="_blank">JavaFX CRUD MVC</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <button class="collapsible-header">🔬 Pesquisa & Desenvolvimento <span class="toggle-icon">+</span></button>
+                    <div class="collapsible-content">
+                        <ul>
+                            <li><a href="#" target="_blank">Processo de Desenvolvimento de Software</a></li>
+                            <li><a href="#" target="_blank">Artigos Científicos</a></li>
+                            <li><a href="#" target="_blank">Sistemas de Recomendação</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    Interessado em colaborar ou tem alguma dúvida? Entre em contato comigo!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:ravarmes@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>ravarmes@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/ravarmes" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="http://lattes.cnpq.br/6616283627544820" target="_blank" class="contact-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Currículo Lattes</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Rafael Vargas Mesquita. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="mailto:ravarmes@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/ravarmes" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rafael-vargas-mesquita/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCdX8ccVP4H_N8rCvDVjhRHg" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
